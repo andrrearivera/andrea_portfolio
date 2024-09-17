@@ -1,0 +1,126 @@
+#home{
+  height:800px;
+}
+
+#hero{
+  height: 60vh;
+
+}
+
+.navbar-brand{
+  font-weight: normal;
+}
+
+.navbar-brand:hover{
+  color: #6CB5AC;
+}
+
+.nav-link:hover{
+  color:#6CB5AC;
+}
+
+a.nav-link{
+  text-decoration: none;
+  font-weight: bold;
+
+}
+a:hover{
+  color:#DD6064;
+}
+
+#changeText{
+  font-size: 8em;
+}
+
+a{
+  text-decoration: none;
+  font-weight: normal;
+  color: #6CB5AC;
+}
+
+li{
+  text-align: start;
+}
+
+.text-gradient {
+                background: linear-gradient(170deg, #6CB5AC, #6CB5AC, #6CB5AC, #DD6064, #DD6064);
+                -webkit-background-clip: text;
+                background-clip: text;
+                color: transparent;
+}
+
+
+.scrollDown::before {
+  animation: bounce 1s ease infinite;
+
+  color: #6CB5AC;
+  content: '╲╱';
+  font-size: 1.5rem;
+  height: 4rem;
+  left: 25%;
+  letter-spacing: -1px;
+  line-height: 4rem;
+  opacity: 0.8;
+  position: absolute;
+  text-align: center;
+  width: 6rem;
+}
+
+@keyframes bounce {
+  50% {
+    transform: translateY(-20%);
+  }
+}
+
+.projectname{
+  font-size: 1.5rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+#gw{
+  color: #016ECD;
+}
+#gw:hover{
+  color: lightblue;
+}
+
+#yos{
+  color: #5f635a;
+}
+#yos:hover{
+  color: #bec3bb;
+}
+
+#cally{
+  color: #FF7324;
+}
+#cally:hover{
+  color: #FFC464;
+}
+
+#advnt{
+  color: black;
+}
+#advnt:hover{
+  color: gray;
+}
+
+.callyhead{
+  background-color: #FF7324;
+}
+
+.yoshead{
+  background-color: #bec3bb;
+}
+/* colors
+
+Teal: #6CB5AC
+Med Blue: #3F6E8A
+Dark Blue: #374C77
+Pink: #DD6064
+Green: #A6C790
+Yellow: #FCF2B3
+*/
