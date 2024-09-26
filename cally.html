@@ -23,7 +23,7 @@
     <div class="container-fluid">
       <!-- start of nav bar -->
       <div class="navigation">
-        <nav class="navbar navbar-expand-lg bg-white fixed-top px-5">
+        <nav class="navbar navbar-expand-lg bg-white fixed-top">
           <div class="container-fluid">
             <a class="navbar-brand" href="index.html">
              <img src="images/ARlogo2.png" alt="Logo" width="70" height="70" class="d-inline-block align-text-center">
@@ -38,7 +38,7 @@
                   <a class="nav-link" href="index.html#portfolio">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link px-3" href="about.html">About me</a>
+                  <a class="nav-link" href="about.html">About me</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="images/AndreaRiveraResume.pdf" target="_blank">Résumé</a>
@@ -54,42 +54,43 @@
 
           <section class="row hero callyhead" id="hero">
             <div class="col-md-12 my-auto position-relative text-center">
-              <img src="images/cally/callyHead.png" alt="Cally logo" class="mt-5 pt-3" height="300" width="300" class="img-fluid">
+              <img src="images/cally/callyHead.png" alt="Cally logo" class="mt-5 pt-3 img-fluid" height="300" width="300" >
             </div>
           </section>
+          <div class="mx-3"> <!-- overall margin -->
 
-          <div class="row text-center justify-content-center py-5">
-            <div class="col-md-5 my-auto">
+          <div class="row justify-content-center py-5">
+            <div class="col-md-5 my-auto text-center">
               <h1 class="projectname"> Cally </h1>
-              <p class="text-muted"> App Design </p>
+              <p class="text-muted pt-3"> App Design </p>
               <p class="text-muted"> February 2023 - April 2023 </p>
               <p class="text-muted"> App design, Information Architecture, User Research, Wireframes and Prototyping </p>
             </div>
-            <div class="col-md-5 px-5">
-              <h2> Background </h2>
-              <p>Cally is an event finder application designed as a class project specifically for University of Florida students. As a UF student, I observed that many students often complained about the lack of activities in Gainesville. Many were seeking a sense of community and looking for events to attend but struggled to find information. Recognizing this need, I saw an opportunity to create an application that could benefit the Gainesville community by providing a centralized platform for event discovery.</p>
+            <div class="col-md-5">
+              <h2 class="text-center pb-3"> Background </h2>
+              <p class="ps-3">Cally is an event finder application designed as a class project specifically for University of Florida students. As a UF student, I observed that many students often complained about the lack of activities in Gainesville. Many were seeking a sense of community and looking for events to attend but struggled to find information. Recognizing this need, I saw an opportunity to create an application that could benefit the Gainesville community by providing a centralized platform for event discovery.</p>
             </div>
           </div>
 
           <div class="row problem text-center justify-content-center">
             <hr class="mb-5">
-            <div class="col-md-8 px-5">
-              <h2> Problem </h2>
-              <p>Many individuals have expressed frustration over the difficulty of discovering local events in Gainesville. Information about these events is not easily accessible unless one knows exactly what to search for or follows the right sources. As a result, many people are left feeling out of the loop. </p>
+            <div class="col-md-8">
+              <h2 class="pb-3"> Problem </h2>
+              <p class="text-start">Many individuals have expressed frustration over the difficulty of discovering local events in Gainesville. Information about these events is not easily accessible unless one knows exactly what to search for or follows the right sources. As a result, many people are left feeling out of the loop. </p>
             </div>
             <hr class="mt-5">
           </div>
 
           <div class="row problem justify-content-center py-5">
-            <div class="col-md-8 px-5 ">
-              <h2 class="text-center"> Goals</h2>
+            <div class="col-md-8">
+              <h2 class="text-center pb-3"> Goals</h2>
               <p> To address this issue, we propose developing an app that consolidates popular Gainesville-based events into a single platform, creating a central hub of easily accessible information about local happenings.</p>
             </div>
 
           </div>
 
           <div class="row problem justify-content-center py-5">
-            <div class="col-md-8 px-5 ">
+            <div class="col-md-8">
               <h2 class="text-center"> Research</h2>
               <p class="py-3"> To gather information I decided to interview local UF students to identify their needs when designing this application </p>
               <p class="pb-3"> I began with general questions to build rapport and gather insights on social media use and weekend activities. Then, I focused on how participants find and choose local events, including their search methods and preferences. I explored their event attendance habits, motivations, and potential barriers, such as distance or cost.</p>
@@ -98,7 +99,7 @@
           </div>
 
           <div class="row problem justify-content-center py-5">
-            <div class="col-md-8 px-5 ">
+            <div class="col-md-8">
               <h2 class="text-center">Interview Analysis</h2>
               <p class="py-3"> Interviews revealed that participants, classified as "adventure seekers," are eager to explore Gainesville and attend spontaneous events with friends. They rely heavily on Instagram for event information but face issues with missing posts due to niche accounts and infrequent updates. One interviewee noted, "It is easy to miss important information about upcoming events when scrolling through your feed. If you're not paying attention, you'll miss out."</p>
               <p class="pb-3"> Participants also use Google and Facebook, but find these platforms inefficient for discovering local events. As one participant mentioned, "In order to look up local events on Google, you need to already know that it's occurring." Facebook is underused by Gen Z, leading to a communication gap between advertisers and potential attendees.</p>
@@ -108,7 +109,7 @@
           </div>
 
           <div class="row justify-content-center py-5">
-            <div class="col-md-5 px-5 my-auto">
+            <div class="col-md-5 my-auto">
               <h2 class="text-center"> Target Audience </h2>
               <p class="py-3"> The app is aimed at sociable adults aged 18-24 living in Gainesville. These tech-savvy individuals are adventure-seekers who enjoy discovering new events and spending time with friends. While the app can benefit users of all ages, this demographic is most likely to adopt new technology and make the most of the app's features, aligning with the large student population in this college town.</p>
             </div>
@@ -138,41 +139,29 @@
               </div>
             </div>
 
-<!--
-            <div class="row text-center justify-content-center py-5">
-              <figure class="figure col-md-5">
-                <img src="images/fillerImage.png" alt="New landing page." height="300px" width="500px">
-                <figcaption class="figure-caption pt-3">Wireframes</figcaption>
-              </figure>
-              <figure class="figure col-md-5">
-                <img src="images/fillerImage.png" alt="advnt CTA" height="300px" width="500px">
-                <figcaption class="figure-caption pt-3">Wireframes</figcaption>
-              </figure>
-            </div>
--->
             <div class="row justify-content-center py-5">
-              <div class="col-md-8 px-5">
+              <div class="col-md-8">
                 <p>For the color scheme of the application, I aimed for a vibrant and engaging color to reflect the excitement users would feel when discovering activities. I chose orange, as it embodies enthusiasm and warmth, aligning with the app's goal to energize and inspire users.</p>
               </div>
             </div>
 
             <div class="row text-center justify-content-center py-5">
               <figure class="figure col-md-5">
-                <img src="images/cally/oldEvent.png" alt="Old event page." height="500px" width="300px" class="img-fluid">
+                <img src="images/cally/oldEvent.png" alt="Old event page." height="500" width="300" class="img-fluid">
                 <figcaption class="figure-caption pt-3">First of the event page</figcaption>
               </figure>
               <figure class="figure col-md-5">
-                <img src="images/cally/oldEvent2.png" alt="old event page" height="500px" width="300px" class="img-fluid">
+                <img src="images/cally/oldEvent2.png" alt="old event page" height="500" width="300" class="img-fluid">
                 <figcaption class="figure-caption pt-3"> What users would see when scrolling on the event page. </figcaption>
               </figure>
             </div>
             <div class="row text-center justify-content-center py-5">
               <figure class="figure col-md-5">
-                <img src="images/cally/oldSearch.png" alt="old search page" height="500px" width="300px" class="img-fluid">
+                <img src="images/cally/oldSearch.png" alt="old search page" height="500" width="300" class="img-fluid">
                 <figcaption class="figure-caption pt-3"> First iteration of the search page.</figcaption>
               </figure>
               <figure class="figure col-md-5">
-                <img src="images/cally/oldProfile.png" alt="advnt CTA" height="500px" width="300px" class="img-fluid">
+                <img src="images/cally/oldProfile.png" alt="advnt CTA" height="500" width="300" class="img-fluid">
                 <figcaption class="figure-caption pt-3">First iteration of the profile page.</figcaption>
               </figure>
             </div>
@@ -189,55 +178,55 @@
           <div class="row text-center justify-content-center py-5">
               <h2 class="pb-3"> Final Product </h2>
               <figure class="figure col-md-5">
-                <img src="images/cally/callyLanding.png" alt="advnt CTA" height="500px" width="300px" class="img-fluid">
+                <img src="images/cally/callyLanding.png" alt="advnt CTA" height="500" width="300" class="img-fluid">
                 <figcaption class="figure-caption pt-3">Loading screen when opening the application.</figcaption>
               </figure>
             <figure class="figure col-md-5">
-              <img src="images/cally/callyEvents.png" alt="New landing page." height="500px" width="300px" class="img-fluid">
+              <img src="images/cally/callyEvents.png" alt="New landing page." height="500" width="300" class="img-fluid">
               <figcaption class="figure-caption pt-3">Final design of the home page</figcaption>
             </figure>
           </div>
 
           <div class="row text-center justify-content-center py-5">
             <figure class="figure col-md-5">
-              <img src="images/cally/event.png" alt="advnt CTA" height="500px" width="300px" class="img-fluid">
+              <img src="images/cally/event.png" alt="advnt CTA" height="500" width="300" class="img-fluid">
               <figcaption class="figure-caption pt-3">Event page final design</figcaption>
             </figure>
             <figure class="figure col-md-5">
-              <img src="images/cally/callyNotif.png" alt="New landing page." height="500px" width="300px" class="img-fluid">
+              <img src="images/cally/callyNotif.png" alt="New landing page." height="500" width="300" class="img-fluid">
               <figcaption class="figure-caption pt-3">Notification popup</figcaption>
             </figure>
           </div>
 
           <div class="row text-center justify-content-center py-5">
             <figure class="figure col-md-5">
-              <img src="images/cally/callySearch.png" alt="New landing page." height="500px" width="300px" class="img-fluid">
+              <img src="images/cally/callySearch.png" alt="New landing page." height="500" width="300" class="img-fluid">
               <figcaption class="figure-caption pt-3">Search page</figcaption>
             </figure>
             <figure class="figure col-md-5">
-              <img src="images/cally/callyProfile.png" alt="advnt CTA" height="500px" width="300px" class="img-fluid">
+              <img src="images/cally/callyProfile.png" alt="advnt CTA" height="500" width="300" class="img-fluid">
               <figcaption class="figure-caption pt-3">User profile page.</figcaption>
             </figure>
           </div>
 
-          <div class="row text-center justify-content-center py-5">
-            <div class="col-md-8 px-5 justify-content-center">
-              <h2> Key takeaways </h2>
+          <div class="row justify-content-center py-5">
+            <div class="col-md-8 ">
+              <h2 class="text-center"> Key takeaways </h2>
                 <ol>
-                  <li class="list-group-item justify-content-center py-3"> <strong>Learning Figma</strong> - This project was my first time using Figma to create a prototype, and I am proud of the final outcome. Though using Figma was not a requirement for this class project, I chose to challenge myself by employing it, recognizing its prevalence in the industry. I learned how to navigate Figma’s features and apply design theories effectively. This experience allowed me to gain hands-on knowledge and proficiency with the platform.</li>
-                  <li class="list-group-item justify-content-center pb-3"><strong>Complex Designs and Theories</strong> - In the future, I aim to leverage Figma to create more complex designs. This project provided valuable insights into different design theories and elements, including Google Material Design, enhancing my overall design skills.</li>
+                  <li class="list-group-item py-3"> <strong>Learning Figma</strong> - This project was my first time using Figma to create a prototype, and I am proud of the final outcome. Though using Figma was not a requirement for this class project, I chose to challenge myself by employing it, recognizing its prevalence in the industry. I learned how to navigate Figma’s features and apply design theories effectively. This experience allowed me to gain hands-on knowledge and proficiency with the platform.</li>
+                  <li class="list-group-item pb-3"><strong>Complex Designs and Theories</strong> - In the future, I aim to leverage Figma to create more complex designs. This project provided valuable insights into different design theories and elements, including Google Material Design, enhancing my overall design skills.</li>
                 </ol>
             </div>
           </div>
 
-
+          </div>
         </section>
 
         <section>
           <div class="row text-center justify-content-center py-5">
-            <div class="col-md-10 px-5">
+            <div class="col-md-10">
             <p><strong>View other projects here:</strong> </p>
-            <p><a class="no-dec" id="gw" href="gamefulWellness.html">Gameful Wellness</a> • <a class="no-dec" id="yos"href="yourOrganizingStudio.html">Your Organizing Studio</a> • <a class="no-dec" id="advnt" href="advnt.html">advnt</a></p>
+            <p><a class="no-dec" id="gw" href="gamefulWellness.html">Gameful Wellness</a> • <a class="no-dec" id="yos" href="yourOrganizingStudio.html">Your Organizing Studio</a> • <a class="no-dec" id="advnt" href="advnt.html">advnt</a></p>
             </div>
           </div>
         </section>

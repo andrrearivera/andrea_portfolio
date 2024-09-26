@@ -49,21 +49,25 @@ li{
                 color: transparent;
 }
 
+.scrollDown{
+  justify-content: center;
+}
 
 .scrollDown::before {
-  animation: bounce 1s ease infinite;
+  /*animation: bounce 1s ease infinite;*/
 
   color: #6CB5AC;
   content: '╲╱';
   font-size: 1.5rem;
   height: 4rem;
-  left: 25%;
   letter-spacing: -1px;
   line-height: 4rem;
-  opacity: 0.8;
-  position: absolute;
+  opacity: 1;
   text-align: center;
   width: 6rem;
+  padding-bottom: 5rem;
+
+
 }
 
 @keyframes bounce {
